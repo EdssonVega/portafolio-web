@@ -40,7 +40,7 @@ header{
 }
 
 .navbarButtons:hover{
-    background:linear-gradient(45deg,rgb(132, 167, 161),#0e1538,#0e1538,rgb(31, 110, 140) );
+    background:linear-gradient(45deg,#9500ff,#0e1538,#0e1538,#09f );
 
     animation: sombraBoton 1s normal 0s infinite;
 }

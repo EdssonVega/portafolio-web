@@ -1,95 +1,36 @@
-
-
-
-.hero{
-    width: 100%;
+.AboutMeSection{
+    border: 1px solid red;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 600px;
-    background: linear-gradient(to bottom, #0e1538c7,rgba(31, 109, 140, 0.822),#0e1538d0), url("../../images/programming.jpg");
-    background-size: cover;
+    padding: 100px 35px;
+    height: 800px;
+    background: #0e1538;
+    background-image: url("../../images/wave_footer_aboutMe.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+    gap: 100px;
 }
 
-.titulo{
+.descripcion{
+    padding: 0px 50px;
+    background:radial-gradient(rgb(31, 110, 140),rgb(31, 110, 140) ,#0e1538 ,#0e1538);
     display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    animation: titu 2s ease 0.5s forwards;
-}
-
-.titulo h1{
-    width: 100%;
-    font-size: 3rem;
-    text-align: left;
-    padding:0 50px;
-    color: rgb(255, 255, 255);
-    font-style: italic; 
-}
-
-.name{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to left,rgb(154, 185, 180) 40%,#b4b5b9 60%);
-    color: transparent;
-    -webkit-background-clip: text;
-}
-
-.svgContainer{
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
     width: 40%;
-    height: 100%;
-    clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
-    animation:svgAnimation 1s ease 1.5s forwards;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10,1fr);
 }
 
-.svg1{
-    border: 1px solid white;
-    grid-column: 1/11;
-    grid-row: 2/6;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
+.descripcion h1{
+    font-size: 3rem;
 }
 
-.svg2{
-    border: 1px solid white;
-    grid-column: 1/9;
-    grid-row: 5/11;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
+.descripcion p{
+    margin: 30px 0px;
+    text-align: left;
 }
 
-.svg3{
-    border: 1px solid white;
-    grid-column: 1/11;
-    grid-row: 1/11;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-
-
-
-@keyframes titu {
-    0%{
-        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-    }
-
-    100%{
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-    }
-    
-}
-
-@keyframes svgAnimation {  
-    100%{
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-    }
-    
+.foto{
+    height: 75%;
 }

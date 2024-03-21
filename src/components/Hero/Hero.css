@@ -1,0 +1,96 @@
+
+
+
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: linear-gradient(to bottom, #0e1538c7,rgba(31, 109, 140, 0.822),#0e1538d0), url("../../images/programming.jpg");
+    background-size: cover;
+    perspective: 1500px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    animation: titu 1s ease 0.5s forwards;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.titulo h1{
+    width: 100%;
+    font-size: 3rem;
+    text-align: left;
+    padding:0 50px;
+    color: rgb(255, 255, 255);
+    font-style: italic; 
+}
+
+.name{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left,rgb(154, 185, 180) 40%,#b4b5b9 60%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.svgContainer{
+    width: 40%;
+    height: 75%;
+    clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
+    animation:svgAnimation 1s ease 2s forwards;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10,1fr);
+    transform: rotateY(-45deg) rotateX(15deg);
+}
+
+.svgContainer:hover{
+    transform: rotateY(0) rotateX(0);
+    transition: transform 0.5s ease;
+}
+
+.svg1{
+    grid-column: 1/11;
+    grid-row: 2/6;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.svg2{
+    grid-column: 1/9;
+    grid-row: 5/11;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.svg3{
+    grid-column: 1/11;
+    grid-row: 1/11;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+
+@keyframes titu {
+    100%{
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+    
+}
+
+@keyframes svgAnimation {  
+    100%{
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+    
+}

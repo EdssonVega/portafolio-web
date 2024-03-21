@@ -1,11 +1,10 @@
 .AboutMeSection{
-    border: 1px solid red;
+
     display: flex;
     justify-content: center;
     padding: 100px 35px;
     height: 800px;
-    background: #0e1538;
-    background-image: url("../../images/wave_footer_aboutMe.svg");
+    background: linear-gradient(to bottom,#0e1538 20%,#0e1538e7),url("../../images/wave_footer_aboutMe.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     color: white;
@@ -14,7 +13,6 @@
 
 .descripcion{
     padding: 0px 50px;
-    background:radial-gradient(rgb(31, 110, 140),rgb(31, 110, 140) ,#0e1538 ,#0e1538);
     display: flex;
     flex-direction: column;
     justify-content: center;

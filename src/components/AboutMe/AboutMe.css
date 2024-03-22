@@ -1,15 +1,20 @@
-
 .AboutMeSection{
-
-    display: flex;
-    justify-content: center;
-    padding: 100px 35px;
-    height: 800px;
-    background: linear-gradient(to bottom,#0e1538,#0e1538,#0f1c3ef1),url("../../images/wave_footer_aboutMe.svg");
+    border: 1px solid yellow;
+    padding: 50px 35px;
+    height: 850px;
+    background: linear-gradient(to bottom,#0e1538,#0e1538,#0f1c3eee),url("../../images/wave_footer_aboutMe.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     color: white;
-    gap: 100px;
+}
+
+.descricionContainer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid red;
 }
 
 .descripcion{
@@ -57,7 +62,7 @@
     /*border-radius: 15px ;*/
     height: 85%;
     width: 96%;
-    background-color: #000000;
+    background-color: #0e1538;
     gap: 10px;
     display: flex;
     align-items: center;
@@ -74,6 +79,17 @@
     height: 3rem;
 }
 .foto{
-    height: 55%;
+    height: 100%;
+}
+
+.skillsSection{
+    padding:25px 50px;
+}
+.skills{
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 

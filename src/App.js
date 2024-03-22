@@ -12,7 +12,7 @@ function App() {
       <NavbarSection />
       <HeroSection />
       <AboutMeSection />
-      <ProjectSection/>
+      <ProjectSection />
     </div>
   );
 }

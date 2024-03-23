@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import foto from "../../images/edsson.jpg"
+import foto from "../../images/Imagen2.jpg"
 import { HiOutlineDocumentArrowDown } from "react-icons/hi2";
 import SkillsCards from "./skill/skill";
 import html from "../../images/html-5.svg"
@@ -16,27 +16,33 @@ import git from "../../images/git-icon.svg"
 const Skills = [
     {
         Name:"HTML5",
-        Logo:html
+        Logo:html,
+        Nivel:"AVANZADO"
     },
     {
         Name:"CSS3",
-        Logo:css
+        Logo:css,
+        Nivel:"AVANZADO"
     },
     {
         Name:"JAVASCRIPT",
-        Logo:javascript
+        Logo:javascript,
+        Nivel:"AVANZADO"
     },
     {
         Name:"REACT",
-        Logo:react
+        Logo:react,
+        Nivel:"MEDIO"
     },
     {
         Name:"JIRA",
-        Logo:jira
+        Logo:jira,
+        Nivel:"MEDIO"
     },
     {
         Name:"GIT",
-        Logo:git
+        Logo:git,
+        Nivel:"AVANZADO"
     }
 ]
 
@@ -56,7 +62,7 @@ function AboutMeSection (){
                 <h1>HABILIDADES</h1>
                 <div className="skills">
                     {Skills.map((Skill,index)=>(
-                        <SkillsCards name={Skill.Name} image={Skill.Logo} key={index}/>
+                        <SkillsCards name={Skill.Name} image={Skill.Logo} nivel={Skill.Nivel} key={index}/>
                     )
                     )
                     }

@@ -3,28 +3,52 @@
     background-color: white;
     width: 200px;
     height:100%;
-    border: 1px solid red;
+    transform: rotateX(50deg);
 }
 
 .logoSkill{
     border-radius: 10px 10px 0 0;
-    border: 1px solid green;
     display: block;
     width: 100%;
     height: 80%;
+}
+.container:hover{
+    transform: rotateX(0deg);
+    transition: all 1s;
+
 }
 
 .nameSkill{
     font-weight: bolder;
     background: linear-gradient(150deg,#9500ff,#09f);
-    border: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
+    position: relative;
     width: 100%;
     height: 20%;
     animation: skillButton 2s ease-in 0s infinite;
+}
+
+.nivel{
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+
+    position: absolute;
+    top:3.5px;
+    left:2.5px;
+    width: 195px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(0px);
+}
+
+.container:hover .nivel{
+    clip-path: circle(150px);
+    transition: all 1s;
 }
 
 @keyframes skillButton {
@@ -37,4 +61,14 @@
 
     }
     
+}
+
+@keyframes efectoTridimensional {
+    0%{
+        transform: rotateX(60deg); 
+
+    }
+    100%{
+        transform: rotateX(-60deg); 
+    }
 }

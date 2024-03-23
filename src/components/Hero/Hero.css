@@ -60,10 +60,9 @@
     width: 100%;
     height: 100%;
     z-index: 2;
+    animation: logoReactRotate 3s linear 0s infinite;
+
 }
- .svgContainer:hover .svg1{
-    animation: logoReactRotate 3s normal 0s infinite;
- }
 
 .svg2{
     grid-column: 1/9;

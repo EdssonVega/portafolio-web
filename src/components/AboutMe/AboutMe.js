@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutMe.css";
-import foto from "../../images/Imagen2.png"
 import { HiOutlineDocumentArrowDown } from "react-icons/hi2";
 import SkillsCards from "./skill/skill";
 import html from "../../images/html-5.svg"
@@ -56,7 +55,6 @@ function AboutMeSection (){
                     <p>Soy un apasionado por la ciencia y la tecnología, siempre me emocionó descubrir como funcionan las cosas así que disfruto de aprender algo nuevo cada día. <br/>¿Qué te puedo decir? Ando dando mis primeros pasos en este mundo digital y me intriga saber toda la caminata que me espera.<br/>Hey! pero no te creas que soy un aburrido que solo habla de estudios y trabajo, si me invitas a ver una peli al cine, a nadar a la piscina o echarle una partida a un videojuego con gusto aceptaré!<br/> Total! La vida es un equilibrio entre los deberes y placeres. </p>
                     <button className="resumeButton"><a><HiOutlineDocumentArrowDown className="hoja"/>HOJA DE VIDA (CV)</a></button>
                 </div>
-                <img src={foto} className="foto"/>
             </div>
             <div className="skillsSection">
                 <h1>HABILIDADES</h1>

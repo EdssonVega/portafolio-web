@@ -1,109 +1,76 @@
 
-
-
 .hero{
+    padding: 500px 300px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 800px;
     background:linear-gradient(rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.925)), url("../../images/programming.jpg");
     background-size: cover;
     background-attachment: fixed;
-    perspective: 1500px;
 }
 
 .titulo{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    animation: titu 1s ease 0.5s forwards;
-    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-}
-
-.titulo h1{
-    width: 100%;
-    font-size: 3.5rem;
     text-align: left;
-    padding:0 100px;
-    color: rgb(255, 255, 255);
-    font-style: italic; 
 }
 
 .name{
-    font-size: 6rem;
-    height: 100%;
-    width: 100%;
-    color:rgb(241, 123, 12);
+    color: rgb(241, 123, 12);
+    font-size: 7rem;
+    font-style: italic;
 }
 
-.svgContainer{
-    width: 40%;
-    height: 75%;
-    clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
-    animation:svgAnimation 1s ease 2s forwards;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10,1fr);
-    transform: rotateY(-45deg) rotateX(15deg);
+.position{
+    margin-bottom: 25px;
+    color: white;
+    font-size: 3rem;
+    font-style: italic
 }
 
-.svgContainer:hover{
-    transform: rotateY(0) rotateX(0);
-    transition: transform 0.5s ease;
+.foto{
+    border: 4px solid rgb(241, 123, 12);
+    border-radius: 50%;
+    position: relative;
 }
 
-.svg1{
-    grid-column: 1/11;
-    grid-row: 2/6;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    animation: logoReactRotate 3s linear 0s infinite;
-
+.socialMediaIcons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
-.svg2{
-    grid-column: 1/9;
-    grid-row: 5/11;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
+.linkedInIcon{
+    cursor: pointer;
+    color: rgb(61, 57, 57);
+    background-color: none;
+    width: 50px;
+    height:50px;
 }
 
-.svg3{
-    grid-column: 1/11;
-    grid-row: 1/11;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+.linkedInIcon:hover{
+    background-color: none;
+    color:rgb(21, 21, 238);
+    filter: drop-shadow(0px 0px 5px white);
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
+.githubIcon{
+    cursor: pointer;
 
-
-
-@keyframes titu {
-    100%{
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-    }
-    
+    color: rgb(61, 57, 57);
+    height:55px;
+    width: 55px;
+    background: none;
 }
 
-@keyframes svgAnimation {  
-    100%{
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-    }
-    
-}
+.githubIcon:hover{
+    color: black;
+    background-clip: content-box white;
+    filter: drop-shadow(0px 0px 5px white);
+    transform: scale(1.2);
+    transition: all 0.5s;
 
-@keyframes logoReactRotate {
-    0%{
-        transform: rotate(0deg);
-    }
 
-    100%{
-        transform: rotate(360deg);
-    }
-    
 }

@@ -26,6 +26,7 @@ header{
 }
 
 .navbarEnlaces{
+    background-clip:rgb(241, 123, 12), circle(20px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,29 +50,15 @@ header{
     position: relative;
 }
 
-.buttonsNav::after{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "Acerca de mi";
-    color: black;
-    position: absolute;
-    width: 95%;
-    height: 85%;
-    border-radius: 30px;
-    background-color: rgba(241, 123, 12, 0.993);
-    clip-path: circle(0px);
-}
 
 .navbarEnlaces:hover{
     border: 4px solid rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px 5px rgb(241, 123, 12) ;
-}
-
-.navbarEnlaces:hover .buttonsNav::after{
-    clip-path: circle(100px);
+    background-color: rgb(241, 123, 12);
+    box-shadow: 0px 0px 10px 5px rgb(241, 123, 12);
+    color: black;
     transition: all 0.5s;
 }
+
 
 .toggle{
     cursor: pointer;

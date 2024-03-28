@@ -11,12 +11,7 @@ function HeroSection(){
     return(
         <section className="hero">
             <div className="titulo">
-                <h1>HOLA! ME LLAMO <br/> <span className="name">EDSSON VEGA</span><br/> Y SOY UN DESARROLLADOR<br/><span className="name"> FRONT END</span></h1>
-            </div>
-            <div className="svgContainer">
-                <img src={logo} className="svg1"/>
-                <img src={comp} className="svg2"/>
-                <img src={cod} className="svg3"/>
+                <h1><span className="name">EDSSON VEGA</span><br/>DESARROLLADOR FRONT END<br/><span className="name"> </span></h1>
             </div>
         </section>
     )

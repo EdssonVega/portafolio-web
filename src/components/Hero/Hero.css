@@ -7,8 +7,9 @@
     align-items: center;
     justify-content: center;
     height: 800px;
-    background: linear-gradient(to bottom, #0e1538b7,rgba(31, 109, 140, 0.712),#0e1538ee), url("../../images/programming.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.925)), url("../../images/programming.jpg");
     background-size: cover;
+    background-attachment: fixed;
     perspective: 1500px;
 }
 
@@ -23,7 +24,7 @@
 
 .titulo h1{
     width: 100%;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: left;
     padding:0 100px;
     color: rgb(255, 255, 255);
@@ -31,9 +32,10 @@
 }
 
 .name{
+    font-size: 6rem;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to left,rgb(154, 185, 180) 40%,#b4b5b9 60%);
+    background: linear-gradient(to left,rgb(243, 170, 35),rgb(243, 170, 35));
     color: transparent;
     -webkit-background-clip: text;
 }

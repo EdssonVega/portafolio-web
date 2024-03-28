@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import foto from "../../images/Imagen2.jpg"
+import foto from "../../images/Imagen2.png"
 import { HiOutlineDocumentArrowDown } from "react-icons/hi2";
 import SkillsCards from "./skill/skill";
 import html from "../../images/html-5.svg"

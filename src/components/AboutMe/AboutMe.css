@@ -2,7 +2,7 @@
     
     padding: 50px 35px;
     height: 950px;
-    background: linear-gradient(to bottom,#0e1538,#0e1538,rgba(0, 153, 255, 0.575)),url("../../images/wave_footer_aboutMe.svg");
+    background-color: black;
     background-repeat: no-repeat;
     background-position: bottom;
     color: white;
@@ -37,8 +37,12 @@
 }
 
 .descripcion p{
+    font-family: sans-serif;
     margin: 30px 0px;
+    line-height: 35px;
+    font-size: 25px;
     text-align: left;
+    font-style: italic;
 }
 
 .resumeButton{
@@ -82,7 +86,10 @@
 }
 .foto{
     height: 100%;
-    filter: grayscale(100);
+}
+
+.foto:hover{
+    transform: rotate(360deg);
 }
 
 .foto:hover{
@@ -109,7 +116,7 @@
 
 .skills{
     perspective: 900px;
-    height: 250px;
+    height: 180px;
     margin: 50px 0;
     display: flex;
     justify-content: center;

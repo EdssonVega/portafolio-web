@@ -35,9 +35,7 @@
     font-size: 6rem;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to left,rgb(243, 170, 35),rgb(243, 170, 35));
-    color: transparent;
-    -webkit-background-clip: text;
+    color:rgb(241, 123, 12);
 }
 
 .svgContainer{

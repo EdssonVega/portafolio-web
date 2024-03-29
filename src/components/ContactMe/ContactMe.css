@@ -1,20 +1,6 @@
-/*
-.contactMeSection{
-    background:linear-gradient(#0e1538d8,rgba(0, 153, 255, 0.575)), url("../../images/social-mode-WmVtCFR1C1g-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 1000px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 
 .contactMeSection{
-    background:linear-gradient(45deg,#000000f1 70%,rgba(241, 123, 12, 0.726)), url("../../images/social-mode-WmVtCFR1C1g-unsplash.jpg");
+    background:radial-gradient(circle at top right,rgba(241, 123, 12, 0.726),#000000f1,#000000f1,#000000f1), url("../../images/social-mode-WmVtCFR1C1g-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,14 +95,13 @@
     width: 100%;
     align-self: center;
     border: 5px solid rgb(53, 50, 50);
-
 }
 
 .submit:hover{
     box-shadow: 0px 0px 10px 5px rgb(241, 123, 12) ;
     color:rgb(241, 123, 12) ;
     border: 5px solid rgb(241, 123, 12);
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 

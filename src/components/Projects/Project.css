@@ -1,5 +1,22 @@
 .projectsSection{
-    height: 700px;
+    padding: 0px 300px;
+    height: fit-content;
     width: 100%;
-    background: linear-gradient(to bottom,#102042 40%,rgba(31, 109, 140, 0.822));
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsSection h1{
+    font-size: 3rem;
+    color:rgb(241, 123, 12);
+    margin: 50px 0px;
+}
+
+.showProjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }

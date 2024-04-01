@@ -14,28 +14,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:
-    
 }
 
 .descripcion{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
 }
 
-.AboutMeSection h1{
+.descripcion h1{
+    align-self:start;
     font-size: 3rem;
-    color: rgb(241, 123, 12);
-    margin-bottom: 25px;
+    color: gray;
+}
+
+.descripcion h1::after{
+    content: ".";
+    font-size: 6rem;
+    color:rgb(241, 123, 12) ;
 }
 
 .descripcion p{
     font-family: sans-serif;
-    margin: 30px 0px;
+    margin: 50px 0px;
     line-height: 35px;
     font-size: 25px;
     text-align: left;
@@ -80,14 +83,22 @@
 }
 
 .skillsSection{
-    color: rgb(241, 123, 12);
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100%;
     gap: 25px;
 }
 
+.skillsSection h1{
+    margin-left: 60px;
+    align-self:start;
+    font-size: 3rem;
+    color: rgb(241, 123, 12);
+}
+
 .skillsReal{
+    margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

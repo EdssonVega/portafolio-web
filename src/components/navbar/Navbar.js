@@ -15,7 +15,7 @@ function NavbarSection (){
 
     return(
         <header>
-            <div>
+            <div className="logo">
                 logotipo
             </div>
             <GiHamburgerMenu className="toggle" onClick={burguerSwitch} />

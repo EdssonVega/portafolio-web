@@ -5,13 +5,13 @@
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .projectsSection h1{
     font-size: 3rem;
     color:rgb(241, 123, 12);
     margin: 50px 0px;
+    width: fit-content;
 }
 
 .showProjects{

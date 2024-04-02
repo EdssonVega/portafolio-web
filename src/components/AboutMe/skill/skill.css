@@ -1,6 +1,4 @@
 .container{
-    /*box-shadow: 0px 0px 10px 5px rgb(167, 114, 17);
-    border: 2px solid rgb(243, 170, 35);*/
     border-radius: 10px;
     background-color: none;
     width: 175px;
@@ -18,6 +16,12 @@
     animation: rotatingLogo 2s linear 0s infinite;
 }
 
+.container:hover .nameSkill{
+    text-shadow:0px 0px 13px rgb(241, 123, 12);
+    color: rgb(241, 123, 12);
+    transition: all 0.5s;
+}
+
 .nameSkill{
     font-weight: bolder;
     background:black;
@@ -29,13 +33,12 @@
     width: 100%;
     height: 20%;
     color: white;
-   /* animation: skillButton 2s ease-in 0s infinite;*/
 }
+
 
 .nivel{
     background-color: black;
     border-radius: 0 0 10px 10px;
-
     position: absolute;
     top:3.5px;
     left:2.5px;

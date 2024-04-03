@@ -8,6 +8,7 @@ import javascript from "../../images/javascript.svg"
 import react from "../../images/react.svg"
 import jira from "../../images/jira.svg"
 import git from "../../images/git-icon.svg"
+import foto from "../../images/fotoL.PNG"
 
 
 
@@ -55,16 +56,21 @@ function AboutMeSection (){
                     <h1>ACERCA DE MI</h1>
                     <p>Soy un apasionado por la ciencia y la tecnología, siempre me emocionó descubrir como funcionan las cosas así que disfruto de aprender algo nuevo cada día. <br/>¿Qué te puedo decir? Ando dando mis primeros pasos en este mundo digital y me intriga saber toda la caminata que me espera.<br/>Hey! pero no te creas que soy un aburrido que solo habla de estudios y trabajo, si me invitas a ver una peli al cine, a nadar a la piscina o echarle una partida a un videojuego con gusto aceptaré!<br/> Total! La vida es un equilibrio entre los deberes y placeres. </p>
                 </div>
-                <div className="skillsSection" >
-                    <h1>HABILIDADES</h1>
-                    <div className="skillsReal">
-                    {Skills.map((Skill,index)=>(
-                        <SkillsCards name={Skill.Name} image={Skill.Logo} nivel={Skill.Nivel} key={index}/>
-                    )
-                    )
-                    }
+                <div className="photoSection" >
+                    <div className="yoContainer">
+                        <img src={foto} className="yo" alt="foto personal" />
                     </div>
                 </div>
+            </div>
+            <div className="skillsSection">
+                <h1>HABILIDADES</h1>
+                        <div className="skillsReal">
+                        {Skills.map((Skill,index)=>(
+                            <SkillsCards name={Skill.Name} image={Skill.Logo} nivel={Skill.Nivel} key={index}/>
+                        )
+                        )
+                        }
+                        </div>
             </div>
         </section>    
     )

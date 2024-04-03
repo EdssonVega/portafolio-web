@@ -41,7 +41,7 @@
 .yo{
     filter: contrast(1.2);
     margin: 50PX;
-    border: 5px solid gray ;
+    border: 5px solid white ;
     width: 500px;
     height: 500px;
     border-radius: 50% ;
@@ -60,7 +60,7 @@
     clip-path: polygon(-2% 0, 102% 102%, 102% 0, -2% 102%);
     position: absolute;
     content:" ";
-    border: 5px solid #80746a ;
+    border: 5px solid white ;
     height: 600px;
     width: 600px;
     border-radius: 50% ;  

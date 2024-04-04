@@ -23,7 +23,7 @@ function HeroSection(){
                     <FaGithubSquare className="githubIcon"/>   
                 </div>
             </div>
-            <div>
+            <div className="photoContainer">
                 <img src={foto} className="foto"/>
             </div>
         </section>

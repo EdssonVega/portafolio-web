@@ -84,8 +84,6 @@ header{
 }
 
 .toggle{
-    border: 1px solid red;
-
     cursor: pointer;
     width: 30px;
     height: 100%;
@@ -100,7 +98,7 @@ header{
     
 }
 
-@media (max-width:1170px){
+@media (max-width:1024px){
 
     @keyframes sombraBoton {
         0%{
@@ -117,41 +115,40 @@ header{
         display: block;
         background: none;
     }
+
+    header{
+        width: 100%;
+        height: 75px;
+    }
     
     .buttonsContainer{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+        background-color: rgba(34, 33, 33, 0.771);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: column nowrap;
         position: absolute;
-        top: 50px;
-        right: 0;
+        top: 74px;
+        left: 0;
         gap: 0px;
-        width:30vw; 
+        width:100vw; 
         height: 0;
         opacity: 0;
         overflow: hidden;
-        transition: all 2s ease;
+        transition: all 1s ease;
         z-index: 10;
     }
 
     .buttonsContainer.display{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
          height: fit-content;
          opacity: 1;
+         
     }
 
-    .navbarButtons{
-        height:100px;
-        width:100%;
+    .buttonsNav{ 
+        width:100vw;
+        height: 150px;
     }
-
-    .navbarEnlaces{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 95px;
-        width:95%;
-        font-size: 20px;
-    }
-
 }

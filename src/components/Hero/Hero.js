@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import foto from "../../images/Imagen2.png"
+import foto from "../../images/Captura.PNG"
 import { GrLinkedin } from "react-icons/gr"
 import { FaGithubSquare } from "react-icons/fa"
 import { GrDocumentDownload } from "react-icons/gr"

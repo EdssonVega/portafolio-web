@@ -5,6 +5,7 @@ import HeroSection from './components/Hero/Hero';
 import AboutMeSection from './components/AboutMe/AboutMe';
 import ProjectSection from './components/Projects/Projects';
 import ContactMeSection from './components/ContactMe/ContactMe';
+import Logotipo from './components/logotipo/logotipo';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <AboutMeSection />
       <ProjectSection />
       <ContactMeSection />
+      <Logotipo />
     </div>
   );
 }

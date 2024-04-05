@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import Logotipo from "../logotipo/logotipo";
 
 
 function NavbarSection (){
@@ -15,8 +16,8 @@ function NavbarSection (){
 
     return(
         <header>
-            <div className="logo">
-                logotipo
+            <div className="logoCont">
+                <Logotipo />
             </div>
             <GiHamburgerMenu className="toggle" onClick={burguerSwitch} />
             <div className={`buttonsContainer ${BurguerMenu==true?"display":""}`}>

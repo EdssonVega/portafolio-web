@@ -1,9 +1,9 @@
 .mainContainer{
-    border: 1px solid red;
-    transform: scale(0.2);
+    
+    transform: scale(0.9);
     width: 400px;
     height: 300px;
-    background-color: transparent;
+    background-color: blue;
     position: relative;
 }
 

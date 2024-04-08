@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import Logotipo from "../logotipo/logotipo";
-
+import Logo from "../../images/logotipo.svg"
 
 function NavbarSection (){
 
@@ -17,7 +17,7 @@ function NavbarSection (){
     return(
         <header>
             <div className="logoCont">
-                <Logotipo />
+                <img src={Logo} />
             </div>
             <GiHamburgerMenu className="toggle" onClick={burguerSwitch} />
             <div className={`buttonsContainer ${BurguerMenu==true?"display":""}`}>

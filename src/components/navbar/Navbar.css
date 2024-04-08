@@ -11,16 +11,18 @@ header{
     align-items: center;
     color: rgb(241, 123, 12);
     justify-content: space-between;
-    padding: 0px 65px;
+    padding: 0px 135px;
     position: fixed;
     z-index: 3;
 }
 .logoCont{
     display: flex;
     align-items: center;
-    
-    height: 300px;
-    width: 400px;
+    height: 90%;  
+}
+
+.logoCont img{
+    height: 100%;
 }
 
 .buttonsContainer{

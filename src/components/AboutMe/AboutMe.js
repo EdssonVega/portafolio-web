@@ -50,7 +50,7 @@ const Skills = [
 
 function AboutMeSection (){
     return(
-        <section className="AboutMeSection">
+        <section className="AboutMeSection" id="aboutMe">
             <div className="aboutMeContainer">
                 <div className="descripcion">
                     <h1>ACERCA DE MI</h1>

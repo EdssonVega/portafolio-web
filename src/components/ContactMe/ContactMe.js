@@ -3,7 +3,7 @@ import "./ContactMe.css"
 
 function ContactMeSection () {
     return(
-        <section className="contactMeSection">
+        <section className="contactMeSection" id="contactMe">
             <form>
                 <h1 className="tituloForm">Contactame!</h1>
                 <div className="inputContainer">

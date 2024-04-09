@@ -21,9 +21,9 @@ function NavbarSection (){
             </div>
             <GiHamburgerMenu className="toggle" onClick={burguerSwitch} />
             <div className={`buttonsContainer ${BurguerMenu==true?"display":""}`}>
-                <a className="navbarEnlaces"><div className="buttonsNav">Acerca de mi</div></a>
-                <a className="navbarEnlaces"><div className="buttonsNav">Proyectos</div></a>
-                <a className="navbarEnlaces"><div className="buttonsNav">Contáctame</div></a>
+                <a className="navbarEnlaces" href="#aboutMe"><div className="buttonsNav">Acerca de mi</div></a>
+                <a className="navbarEnlaces" href="#projects"><div className="buttonsNav">Proyectos</div></a>
+                <a className="navbarEnlaces" href="#contactMe"><div className="buttonsNav">Contáctame</div></a>
             </div>
         </header>
     )

@@ -10,7 +10,6 @@
 }
 
 .titulo{
-    border: 1px solid yellow;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -78,7 +77,6 @@
 }
 
 .photoContainer{
-    border: 1px solid red;
     width: 50%;
     aspect-ratio: 1/1.15;
 }

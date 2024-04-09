@@ -9,7 +9,7 @@ const projects = [
 
 function ProjectSection(){
     return(
-        <section className="projectsSection">
+        <section className="projectsSection" id="projects">
                 <h1>PROYECTOS</h1>
                 <div className="showProjects">
                     <ProjectCards />

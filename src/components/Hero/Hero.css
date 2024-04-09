@@ -169,7 +169,26 @@
 }
 
 @media (max-width:768px){
+
+    .hero{
+        width: 98%;
+    }
     .socialMediaIcons{
         position: unset
+    }
+
+    .titulo{
+        padding-top:100px;
+        align-items: center;
+    }
+
+    .resumeButton{
+        height: 50px;
+        width: 175px;
+        font-size: 0.75rem;
+    }
+
+    .name{
+        font-size: 4rem;
     }
 }

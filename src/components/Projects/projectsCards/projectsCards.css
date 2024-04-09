@@ -2,11 +2,11 @@
     background-color: black;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    aspect-ratio: 4/5;
     border: 1px solid rgb(90, 89, 87);
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .projectContainer:hover{
@@ -24,12 +24,14 @@
 }
 
 .projectText{
+    border: 1px solid yellow;
     width: 100%;
     height: 20%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 30px;
+    justify-content: center;
+    padding-left: 2vw;
     gap: 20px;
 }
 
@@ -46,8 +48,9 @@
     height: 20%;
     display: flex;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 2vw;
     gap: 20px;
+    border: 1px solid blue;
 }
 
 .toGitCode{
@@ -71,7 +74,6 @@
     clip-path: circle(0px at left);
     content: " ";
     position: absolute;
-    border-radius: 5px;
     top: 0;
     left: 0;
     height: 100%;
@@ -128,4 +130,35 @@
 .toHost:hover{
     color: rgb(241, 123, 12);
     transition: 0.5s;
+}
+
+
+@media (max-width:900px){
+    .projectContainer{
+        transform: scale(0.9);
+        margin-bottom: 0px;
+    }
+
+    .projectContainer:hover{
+        transform: scale(0.95);
+    }
+}
+
+@media (max-width:768px){
+    .projectContainer{
+        aspect-ratio: unset;
+        height: 450px;
+    }
+
+    .projectContainer img{
+        height: 60%
+    }
+
+    .projectText{
+        height: 20%;
+    }
+
+    .projectButtons{
+        height: 20%;
+    }
 }

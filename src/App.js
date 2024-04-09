@@ -16,7 +16,6 @@ function App() {
       <AboutMeSection />
       <ProjectSection />
       <ContactMeSection />
-      <Logotipo />
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.experienceCardContainer{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(241, 123, 12);
+    width:100%;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+}
+
+.experienceCardContainer h3{
+    color: rgb(241, 123, 12);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.experienceCardContainer h2{
+    color: white;
+}
+
+.experienceCardContainer p{
+    color: rgb(117, 111, 111);
+}

@@ -31,6 +31,9 @@
     font-size: 3vw;  
 }
 
+.titulo a{
+    width: 40%;
+}
 .resumeButton{
     margin: 25px 0;
     display: flex;
@@ -44,7 +47,7 @@
     aspect-ratio: 1/0.25;
     cursor: pointer;
     border-radius: 35px;
-    width: 40%;
+    width: 100%;
     border: 3px solid rgb(241, 123, 12); 
     gap: 10px;
     position: relative;

@@ -3,6 +3,7 @@ import "./Hero.css";
 import { GrLinkedin } from "react-icons/gr"
 import { FaGithubSquare } from "react-icons/fa"
 import { GrDocumentDownload } from "react-icons/gr"
+import cv from "../../curriculum vitae.pdf"
 
 
 
@@ -14,9 +15,11 @@ function HeroSection(){
                 <h2 className="position">¡Hola! Me llamo</h2>
                 <h1 className="name">EDSSON VEGA</h1>
                 <h2 className="position">Desarrollador Front End</h2>
-                <button className="resumeButton">
+                <a  href={cv} download>
+                    <button className="resumeButton">
                         <GrDocumentDownload className="hoja"/>HOJA DE VIDA (CV)
-                </button>
+                    </button>
+                </a>
                 <div className="socialMediaIcons">
                     <a href="https://www.linkedin.com/in/edsson-edmundo-vega-torrico-432705303/" target="_blank"><GrLinkedin className="linkedInIcon"/></a>
                     <a href="https://github.com/EdssonVega" target="_blank"><FaGithubSquare className="githubIcon"/></a> 

@@ -8,7 +8,7 @@ import javascript from "../../images/javascript.svg"
 import react from "../../images/react.svg"
 import jira from "../../images/jira.svg"
 import git from "../../images/git-icon.svg"
-import foto from "../../images/fotoL.PNG"
+import foto from "../../images/fotoL.jpg"
 
 
 

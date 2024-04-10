@@ -2,7 +2,7 @@ import React from "react";
 import "./projectsCards.css";
 import { FaGithub } from "react-icons/fa";
 import { TfiNewWindow } from "react-icons/tfi";
-import example from "../../../images/programming.jpg"
+import example from "../../../images/portafolio.PNG"
 
 
 function ProjectCards (){

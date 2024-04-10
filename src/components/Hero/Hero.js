@@ -18,8 +18,8 @@ function HeroSection(){
                         <GrDocumentDownload className="hoja"/>HOJA DE VIDA (CV)
                 </button>
                 <div className="socialMediaIcons">
-                    <GrLinkedin className="linkedInIcon"/>
-                    <FaGithubSquare className="githubIcon"/>   
+                    <a href="https://www.linkedin.com/in/edsson-edmundo-vega-torrico-432705303/" target="_blank"><GrLinkedin className="linkedInIcon"/></a>
+                    <a href="https://github.com/EdssonVega" target="_blank"><FaGithubSquare className="githubIcon"/></a> 
                 </div>
             </div>
             <div className="adorno">

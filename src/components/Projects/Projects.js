@@ -15,7 +15,6 @@ function ProjectSection(){
                     <ProjectCards />
                     <ProjectCards />
                     <ProjectCards />
-                    <ProjectCards />
                 </div>
         </section>
     )

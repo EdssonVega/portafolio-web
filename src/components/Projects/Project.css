@@ -35,7 +35,6 @@
 
     
     .showProjects{
-        border: 1px solid red;
         width: 100vw;
         gap: 30px;
     }

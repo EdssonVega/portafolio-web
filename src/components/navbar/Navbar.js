@@ -23,6 +23,7 @@ function NavbarSection (){
             <div className={`buttonsContainer ${BurguerMenu==true?"display":""}`}>
                 <a className="navbarEnlaces" href="#aboutMe"><div className="buttonsNav">Acerca de mi</div></a>
                 <a className="navbarEnlaces" href="#projects"><div className="buttonsNav">Proyectos</div></a>
+                <a className="navbarEnlaces" href="#experience"><div className="buttonsNav">Experiencia</div></a>
                 <a className="navbarEnlaces" href="#contactMe"><div className="buttonsNav">Contáctame</div></a>
             </div>
         </header>

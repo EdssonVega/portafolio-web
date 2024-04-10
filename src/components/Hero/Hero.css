@@ -205,3 +205,13 @@
         font-size: 4rem;
     }
 }
+
+@media (max-width:480px){
+    .name{
+        font-size: 3rem;
+    }
+
+    .position{
+        font-size: 1.5rem;
+    }
+}

@@ -17,7 +17,7 @@ function NavbarSection (){
     return(
         <header>
             <div className="logoCont">
-                <img src={Logo} />
+                <img src={Logo} className="erick"/>
             </div>
             <GiHamburgerMenu className="toggle" onClick={burguerSwitch} />
             <div className={`buttonsContainer ${BurguerMenu==true?"display":""}`}>

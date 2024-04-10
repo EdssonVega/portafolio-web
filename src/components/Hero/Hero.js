@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import foto from "../../images/Captura.PNG"
 import { GrLinkedin } from "react-icons/gr"
 import { FaGithubSquare } from "react-icons/fa"
 import { GrDocumentDownload } from "react-icons/gr"
@@ -23,8 +22,8 @@ function HeroSection(){
                     <FaGithubSquare className="githubIcon"/>   
                 </div>
             </div>
-            <div className="photoContainer">
-                <img src={foto} className="foto"/>
+            <div className="adorno">
+                
             </div>
         </section>
     )

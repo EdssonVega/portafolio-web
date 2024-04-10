@@ -31,8 +31,7 @@ a{
 }
 
 .buttonsContainer{
-    width: 40%;
-    gap: 20px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     background-color: none;
@@ -102,7 +101,7 @@ a{
 
 @media (max-width:1268px) {
     .buttonsContainer{
-        width: 50%;
+        width: 60%;
     }
     
 }

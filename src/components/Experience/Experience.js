@@ -11,7 +11,7 @@ const experiences = [
     {
         Fecha:"2024-",
         Posicion: "Desarrollador Front End - AndeanUX S.R.L.",
-        Descripcion: "Pasante en la empresa AndeanUX S.R.L. ayudando en el proyecto Fitness Club, proyecto creado usando tecnologia Next Js, el cual ayudará a los usuarios a tener una mejor experiencia y comodidad a la hora de elegir y suscribirse a un centro deportivo",
+        Descripcion: "Desarrollador en la empresa AndeanUX S.R.L. en el proyecto Fitness Club, proyecto creado usando tecnologia Next Js, el cual ayudará a los usuarios a tener una mejor experiencia y comodidad a la hora de elegir y suscribirse a un centro deportivo",
         f1:foto1,
         f2:foto2,
         f3:foto3,

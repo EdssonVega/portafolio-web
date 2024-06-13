@@ -6,6 +6,7 @@ import html from "../../images/html-5.svg"
 import css from "../../images/css-3.svg"
 import javascript from "../../images/javascript.svg"
 import react from "../../images/react.svg"
+import typescript from "../../images/typescript-icon.svg"
 import jira from "../../images/jira.svg"
 import git from "../../images/git-icon.svg"
 import foto from "../../images/fotoL.jpg"
@@ -17,6 +18,11 @@ const Skills = [
     {
         Name:"REACT",
         Logo:react,
+        Nivel:"MEDIO"
+    },
+    {
+        Name:"TYPESCRIPT",
+        Logo:typescript,
         Nivel:"MEDIO"
     },
     {

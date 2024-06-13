@@ -9,9 +9,9 @@ import foto4 from "../../images/fc4.PNG"
 
 const experiences = [
     {
-        Fecha:"2024-",
-        Posicion: "Desarrollador Front End - AndeanUX S.R.L.",
-        Descripcion: "Desarrollador en la empresa AndeanUX S.R.L. en el proyecto Fitness Club, proyecto creado usando tecnologia Next Js, el cual ayudará a los usuarios a tener una mejor experiencia y comodidad a la hora de elegir y suscribirse a un centro deportivo",
+        Fecha:"Enero 2024 - Presente",
+        Posicion: "Desarrollador Front End - AndeanUX",
+        Descripcion: "Desarrollador en la empresa AndeanUX en el proyecto Fitness Club, proyecto creado usando tecnologia Next Js, el cual ayudará a los usuarios a tener una mejor experiencia y comodidad a la hora de elegir y suscribirse a un centro deportivo",
         f1:foto1,
         f2:foto2,
         f3:foto3,
